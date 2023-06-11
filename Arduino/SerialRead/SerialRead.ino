@@ -53,8 +53,11 @@ LedControl display = LedControl(DIN_PIN, CLK_PIN, CS_PIN,2);
 
 void setup() {
   display.clearDisplay(0);
+  display.clearDisplay(1);
   display.shutdown(0, false);
+  display.shutdown(1, false);
   display.setIntensity(0, 10);
+  display.setIntensity(1, 10);
 
   Serial.begin(9600); // you can set it to other baud rates also
 }

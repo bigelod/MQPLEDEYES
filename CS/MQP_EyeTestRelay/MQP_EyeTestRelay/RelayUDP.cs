@@ -39,6 +39,11 @@ namespace MQP_EyeTestRelay
                 {
                     comPort = new SerialPort(_comPort, 9600);//Set your board COM
                     comPort.Open();
+
+                    if (comPort.IsOpen)
+                    {
+                        comPort.WriteLine("30,32");
+                    }
                 }
             }
             catch
@@ -82,7 +87,7 @@ namespace MQP_EyeTestRelay
 
                     Console.WriteLine(msg);
 
-                    if (comPort != null && comPort.IsOpen)
+                    if (comPort != null && comPort.IsOpen && msg != null && msg != "")
                     {
                         comPort.WriteLine(msg);
                     }

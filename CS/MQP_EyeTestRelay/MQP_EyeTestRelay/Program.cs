@@ -12,7 +12,7 @@ namespace MQP_EyeTestRelay
         {
             Console.WriteLine("Starting UDP Listener...");
 
-            RelayUDP relay = new RelayUDP(10024, "COM4");
+            RelayUDP relay = new RelayUDP(10024, "COM5");
 
             Console.Title = "Meta Quest Pro - Eye Display Test Relay App (Press Enter to Quit)";
 
