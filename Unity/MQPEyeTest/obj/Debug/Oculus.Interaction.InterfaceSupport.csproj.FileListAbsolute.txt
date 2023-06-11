@@ -1,0 +1,2 @@
+E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\obj\Debug\Oculus.Interaction.InterfaceSupport.csprojAssemblyReference.cache
+E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\obj\Debug\Oculus.Interaction.InterfaceSupport.csproj.CoreCompileInputs.cache

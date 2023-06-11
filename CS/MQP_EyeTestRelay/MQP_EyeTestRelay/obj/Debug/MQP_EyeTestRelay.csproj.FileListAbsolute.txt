@@ -1,0 +1,7 @@
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\bin\Debug\MQP_EyeTestRelay.exe.config
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\bin\Debug\MQP_EyeTestRelay.exe
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\bin\Debug\MQP_EyeTestRelay.pdb
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\obj\Debug\MQP_EyeTestRelay.csprojAssemblyReference.cache
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\obj\Debug\MQP_EyeTestRelay.csproj.CoreCompileInputs.cache
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\obj\Debug\MQP_EyeTestRelay.exe
+E:\Daven Bigelow\Documents\Visual Studio 2017\Projects\CS\MQP_EyeTestRelay\MQP_EyeTestRelay\obj\Debug\MQP_EyeTestRelay.pdb

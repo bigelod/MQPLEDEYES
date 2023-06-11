@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature
+12-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-111
+13        android:name="android.hardware.vr.headtracking"
+13-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-64
+14        android:required="true"
+14-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:85-108
+15        android:version="1" />
+15-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:65-84
+16    <uses-feature
+16-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+17        android:name="oculus.software.handtracking"
+17-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+18        android:required="false" />
+18-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+19
+20    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+20-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-73
+20-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-70
+21
+22    <uses-feature
+22-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-93
+23        android:name="com.oculus.software.body_tracking"
+23-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-65
+24        android:required="false" />
+24-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:66-90
+25
+26    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+26-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-73
+26-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-70
+27
+28    <uses-feature
+28-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-89
+29        android:name="oculus.software.face_tracking"
+29-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-61
+30        android:required="false" />
+30-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:62-86
+31
+32    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+32-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-73
+32-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:20-70
+33
+34    <uses-feature
+34-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-87
+35        android:name="oculus.software.eye_tracking"
+35-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-60
+36        android:required="true" />
+36-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:61-84
+37
+38    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+38-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-72
+38-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:20-69
+39
+40    <uses-feature android:glEsVersion="0x00030000" />
+40-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-52
+40-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-49
+41    <uses-feature
+41-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-91
+42        android:name="android.hardware.vulkan.version"
+42-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-63
+43        android:required="false" />
+43-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:64-88
+44
+45    <uses-permission android:name="android.permission.INTERNET" />
+45-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-65
+45-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:20-62
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:3-77
+46-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:20-74
+47    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+47-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:3-69
+47-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:20-66
+48    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+48-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:41:3-78
+48-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:41:20-75
+49
+50    <uses-feature
+50-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:42:3-87
+51        android:name="android.hardware.microphone"
+51-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:42:17-59
+52        android:required="false" />
+52-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:42:60-84
+53    <uses-feature
+53-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:3-88
+54        android:name="android.hardware.touchscreen"
+54-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:17-60
+55        android:required="false" />
+55-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:43:61-85
+56    <uses-feature
+56-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:44:3-99
+57        android:name="android.hardware.touchscreen.multitouch"
+57-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:44:17-71
+58        android:required="false" />
+58-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:44:72-96
+59    <uses-feature
+59-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:45:3-108
+60        android:name="android.hardware.touchscreen.multitouch.distinct"
+60-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:45:17-80
+61        android:required="false" />
+61-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:45:81-105
+62
+63    <application
+63-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-26:17
+64        android:allowBackup="false"
+64-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:81-108
+65        android:extractNativeLibs="true"
+65-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:109-141
+66        android:icon="@mipmap/app_icon"
+66-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-80
+67        android:label="@string/app_name"
+67-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+68        android:networkSecurityConfig="@xml/network_sec_config" >
+68-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+69        <activity
+69-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-12:16
+70            android:name="com.unity3d.player.UnityPlayerActivity"
+70-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:80-133
+71            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+71-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:262-371
+72            android:excludeFromRecents="true"
+72-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-167
+73            android:exported="true"
+73-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:168-191
+74            android:hardwareAccelerated="false"
+74-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:407-442
+75            android:launchMode="singleTask"
+75-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:230-261
+76            android:resizeableActivity="false"
+76-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:372-406
+77            android:screenOrientation="landscape"
+77-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:192-229
+78            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+78-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-79
+79            <intent-filter>
+79-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+80                <action android:name="android.intent.action.MAIN" />
+80-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+80-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+82-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+83                <category android:name="com.oculus.intent.category.VR" />
+83-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+83-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+84            </intent-filter>
+85
+86            <meta-data
+86-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+87                android:name="android.notch_support"
+87-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+88                android:value="true" />
+88-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+89            <meta-data
+89-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-81
+90                android:name="com.oculus.vr.focusaware"
+90-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-57
+91                android:value="true" />
+91-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:58-78
+92        </activity>
+93
+94        <meta-data
+94-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-89
+95            android:name="unityplayer.SkipPermissionsDialog"
+95-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+96            android:value="false" />
+96-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:65-86
+97        <meta-data
+97-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-97
+98            android:name="com.samsung.android.vr.application.mode"
+98-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-70
+99            android:value="vr_only" />
+99-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:71-94
+100        <meta-data
+100-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-87
+101            android:name="com.oculus.handtracking.frequency"
+101-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+102            android:value="LOW" />
+102-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:65-84
+103        <meta-data
+103-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-69
+104            android:name="unity.splash-mode"
+104-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-48
+105            android:value="0" />
+105-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:49-66
+106        <meta-data
+106-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-74
+107            android:name="unity.splash-enable"
+107-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-50
+108            android:value="True" />
+108-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:51-71
+109        <meta-data
+109-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-78
+110            android:name="unity.launch-fullscreen"
+110-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-54
+111            android:value="True" />
+111-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:55-75
+112        <meta-data
+112-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+113            android:name="unity.allow-resizable-window"
+113-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-59
+114            android:value="False" />
+114-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:60-81
+115        <meta-data
+115-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-81
+116            android:name="notch.config"
+116-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-43
+117            android:value="portrait|landscape" />
+117-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:44-78
+118        <meta-data
+118-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-84
+119            android:name="unity.auto-report-fully-drawn"
+119-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-60
+120            android:value="true" />
+120-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:61-81
+121        <meta-data
+121-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-90
+122            android:name="com.unity.xr.oculus.LowOverheadMode"
+122-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-66
+123            android:value="true" />
+123-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:67-87
+124        <meta-data
+124-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-88
+125            android:name="com.unity.xr.oculus.LateLatching"
+125-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-63
+126            android:value="false" />
+126-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:64-85
+127        <meta-data
+127-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-93
+128            android:name="com.unity.xr.oculus.LateLatchingDebug"
+128-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-68
+129            android:value="false" />
+129-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:69-90
+130        <meta-data
+130-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-90
+131            android:name="com.oculus.supportedDevices"
+131-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-58
+132            android:value="quest|quest2" />
+132-->E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:59-87
+133    </application>
+134
+135</manifest>

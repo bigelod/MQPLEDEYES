@@ -1,0 +1,2 @@
+E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+E:\Users\Daven Bigelow\Documents\GitHub\MQPEyeTest\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache

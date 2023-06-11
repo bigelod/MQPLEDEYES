@@ -1,0 +1,34 @@
+0 - Blink
+1 - Open
+2 - N1
+3 - N2
+4 - N3
+5 - S1
+6 - S2
+7 - S3
+8 - W1
+9 - W2
+10 - W3
+11 - E1
+12 - E2
+13 - E3
+14 - NW1
+15 - NW2
+16 - NW3
+17 - NE1
+18 - NE2
+19 - NE3
+20 - SW1
+21 - SW2
+22 - SW3
+23 - SE1
+24 - SE2
+25 - SE3
+26 - V
+27 - V outline
+28 - R
+29 - R outline
+30 - O
+31 - O outline
+32 - N
+33 - N outline
