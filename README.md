@@ -9,7 +9,7 @@ Hacked together by Daven Bigelow, released Public Domain / "Unlicense"
 
 This project uses a simulated VR app that lets the user toggle between "VR Mode" or "Passthrough" without actually changing anything in-app, it will show a preview of what the LED displays would show if you don't have them hooked up IRL as well as some debug data
 
-To do something like this "for real" would probably require direct access given by Meta to the eye tracking data for a background Android app to pass alongside COM OTG or Bluetooth BLE to an Arduino, which seems unlikely to happen any time soon, so this is just a toy / fun project!
+To do something like this "for real" would probably require direct access given by Meta to the eye tracking data for a background Android app to pass alongside COM OTG or Bluetooth BLE to an Arduino, which seems unlikely to happen any time soon, so this is just a toy / hobby project!
 
 Technically, a smartphone could just display the "fake eyes" you see in the scene and be strapped to the front of a Quest, but I wanted to make it a hardware journey too (I hadn't used a soldering iron in like a decade), but this would still need to become either some third party SDK for other devs to implement, or unlikely data exposure by Meta to background apps.
 
