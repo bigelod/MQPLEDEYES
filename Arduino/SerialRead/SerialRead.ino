@@ -62,7 +62,7 @@ void setup() {
   Serial.begin(9600); // you can set it to other baud rates also
 }
 
-void displayImage(uint64_t image) {
+void displayImageR(uint64_t image) {
   for (int i = 0; i < 8; i++) {
     byte row = (image >> i * 8) & 0xFF;
     for (int j = 0; j < 8; j++) {
@@ -71,7 +71,7 @@ void displayImage(uint64_t image) {
   }
 }
 
-void displayImageR(uint64_t image) {
+void displayImage(uint64_t image) {
   for (int i = 0; i < 8; i++) {
     byte row = (image >> i * 8) & 0xFF;
     for (int j = 0; j < 8; j++) {

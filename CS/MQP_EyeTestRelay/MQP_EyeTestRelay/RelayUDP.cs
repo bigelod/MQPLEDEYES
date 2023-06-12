@@ -42,7 +42,7 @@ namespace MQP_EyeTestRelay
 
                     if (comPort.IsOpen)
                     {
-                        comPort.WriteLine("30,32");
+                        comPort.WriteLine("26,28");
                     }
                 }
             }
