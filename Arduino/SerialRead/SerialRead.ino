@@ -43,13 +43,19 @@ const uint64_t IMAGES[] = {
   0x4262724a46464200,
   0xbd9d8db5b9b9bdff
 };
-const int IMAGES_LEN = sizeof(IMAGES)/8;
+const int IMAGES_LEN = sizeof(IMAGES) / 8;
 
 int currImgL = 0;
 int currImgR = 0;
 
-LedControl display = LedControl(DIN_PIN, CLK_PIN, CS_PIN,2);
+LedControl display = LedControl(DIN_PIN, CLK_PIN, CS_PIN, 2);
 
+const byte numChars = 8;
+char receivedChars[numChars];
+
+boolean newData = false;
+
+String strL, strR;
 
 void setup() {
   display.clearDisplay(0);
@@ -59,7 +65,11 @@ void setup() {
   display.setIntensity(0, 10);
   display.setIntensity(1, 10);
 
-  Serial.begin(9600); // you can set it to other baud rates also
+  Serial.begin(9600);  // you can set it to other baud rates also
+
+  while (!Serial) {
+    ;  // wait for serial port to connect. Needed for native USB port only
+  }
 }
 
 void displayImageR(uint64_t image) {
@@ -83,7 +93,48 @@ void displayImage(uint64_t image) {
 void loop() {
   displayImage(IMAGES[currImgL]);
   displayImageR(IMAGES[currImgR]);
-  while (Serial.available()==0){}
-  currImgL = Serial.parseInt();
-  currImgR = Serial.parseInt();
+
+  recvWithStartEndMarkers();
+}
+
+void recvWithStartEndMarkers() {
+  static boolean recvInProgress = false;
+  static byte ndx = 0;
+  char startMarker = '<';
+  char endMarker = '>';
+  char rc;
+
+  while (Serial.available() > 0 && newData == false) {
+    rc = Serial.read();
+
+    if (recvInProgress == true) {
+      if (rc != endMarker) {
+        receivedChars[ndx] = rc;
+        ndx++;
+        if (ndx >= numChars) {
+          ndx = numChars - 1;
+        }
+      } else {
+        receivedChars[ndx] = '\0';  // terminate the string
+        recvInProgress = false;
+        ndx = 0;
+        newData = true;
+      }
+    }
+    else if (rc == startMarker) {
+      recvInProgress = true;
+    }
+  }
+
+  if (newData == true) {
+    strL += receivedChars[0];
+    strL += receivedChars[1];
+    strR += receivedChars[2];
+    strR += receivedChars[3];
+    currImgL = strL.toInt();
+    currImgR = strR.toInt();
+    newData = false;
+    strL = "";
+    strR = "";
+  }
 }

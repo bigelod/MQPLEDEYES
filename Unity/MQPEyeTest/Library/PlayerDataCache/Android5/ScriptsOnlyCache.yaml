@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DisplayTextLog
-    - EyeStatus
     - ReadBlendShapes
     - SimEyeAnim
     Meta.Movement.dll:
@@ -402,8 +401,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26022}
     - Class: 114
       Script: {instanceID: 26088}
-    - Class: 114
-      Script: {instanceID: 26118}
     - Class: 114
       Script: {instanceID: 26352}
     - Class: 114
@@ -4945,12 +4942,6 @@ ScriptsOnlyBuild:
     className: RayToolView
   - hash:
       serializedVersion: 2
-      Hash: b4a612b34a277e6e49df0bb4e0cb6a13
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EyeStatus
-  - hash:
-      serializedVersion: 2
       Hash: fe1fdeffc2067077b2f1a90b210c2532
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -5324,4 +5315,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MovementAura.unity
-  playerPath: E:/Users/Daven Bigelow/Documents/GitHub/MQPEyeTest/Build/test.apk
+  playerPath: E:/Users/Daven Bigelow/Documents/GitHub/MQPEyeTest/Build/MQPEyeTest_V1.apk

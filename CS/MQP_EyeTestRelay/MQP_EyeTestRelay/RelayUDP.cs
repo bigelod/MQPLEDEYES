@@ -25,6 +25,9 @@ namespace MQP_EyeTestRelay
         public bool firstAlert = false;
         public bool verbose = false;
 
+        public int sendEvery = 10;
+        public int currCount = 0;
+
         public RelayUDP(int _inPort = 10024, string _comPort = "COM7")
         {
             port = _inPort;
@@ -38,12 +41,7 @@ namespace MQP_EyeTestRelay
                 if (comPort == null)
                 {
                     comPort = new SerialPort(_comPort, 9600);//Set your board COM
-                    comPort.Open();
-
-                    if (comPort.IsOpen)
-                    {
-                        comPort.WriteLine("26,28");
-                    }
+                    comPort.Open();                    
                 }
             }
             catch
@@ -64,6 +62,18 @@ namespace MQP_EyeTestRelay
             {
                 comPort.Close();
             }
+        }
+
+        public string ZeroPad (string s, int len = 2)
+        {
+            string str = s;
+
+            while (str.Length < len)
+            {
+                str = "0" + str;
+            }
+
+            return str;
         }
 
         public void Listen()
@@ -89,7 +99,19 @@ namespace MQP_EyeTestRelay
 
                     if (comPort != null && comPort.IsOpen && msg != null && msg != "")
                     {
-                        comPort.WriteLine(msg);
+                        string[] s = msg.Split(',');
+
+                        if (s.Length >= 2)
+                        {
+                            if (currCount == 0)
+                            {
+                                comPort.Write("<" + ZeroPad(s[0]) + ZeroPad(s[1]) + ">");
+                            }
+
+                            currCount += 1;
+
+                            if (currCount > sendEvery) currCount = 0;
+                        }                        
                     }
                 }
                 catch (SocketException e)

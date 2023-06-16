@@ -33,6 +33,7 @@ Hardware used:
 1x Arduino Uno R3
 2x Generic 8x8 LED matrix devices
 1x Quest Pro
+1x Quest Pro replacable cover (third party)
 1x Windows PC to communicate with the Arduino
 
 ------------------
@@ -44,6 +45,7 @@ Meta Movement SDK: https://github.com/oculus-samples/Unity-Movement
 Arduino Code: https://docs.arduino.cc/built-in-examples/communication/ReadASCIIString
 and https://www.circuitbasics.com/how-to-setup-an-led-matrix-on-the-arduino/
 and https://xantorohara.github.io/led-matrix-editor/
+and https://forum.arduino.cc/t/serial-input-basics-updated/382007/2
 
 Networking Code: https://stackoverflow.com/questions/53731293/sending-udp-calls-in-unity-on-android
 
