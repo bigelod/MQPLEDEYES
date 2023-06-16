@@ -31,9 +31,13 @@ Hardware used:
 ------------------
 
 1x Arduino Uno R3
+
 2x Generic 8x8 LED matrix devices
+
 1x Quest Pro
+
 1x Quest Pro replacable cover (third party)
+
 1x Windows PC to communicate with the Arduino
 
 ------------------
