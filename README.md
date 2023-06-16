@@ -40,7 +40,7 @@ Hardware used:
 
 1x Quest Pro
 
-1x Quest Pro replacable cover (third party)
+1x Quest Pro replaceable cover (third party)
 
 1x Windows PC to communicate with the Arduino
 
