@@ -1,6 +1,8 @@
 # MQPLEDEYES
 A fun little project to see what it'd be like if you could "see" where someone is looking with their Meta Quest Pro from the outside
 
+Licensing note: In the case where Unlicense / Public Domain is not usable for your purposes, this project is also licensed under the MIT license so that it may be used in your own projects freely without limitations
+
 ------
 NOTES:
 ------
